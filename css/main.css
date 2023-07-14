@@ -1,0 +1,135 @@
+
+*{
+          margin: 0;
+          padding: 0;
+}
+
+body{
+          background-color: #000;
+          color: #fff;
+          height: 100vh;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+
+.container{
+          width: 90%;
+          height: 640px;
+          background-color: #1d1b1b;
+          background-image: linear-gradient(to right ,#232222cb 55%, #605e5e27) , url(../images/R.jpg);
+          background-size: cover;
+          overflow: hidden; 
+
+            
+}
+
+.container:hover{
+          background-image: linear-gradient(to right ,#232222cb 55%, #62606000) , url(../images/R.jpg);
+}
+
+.header{
+          display: flex;
+          justify-content: space-between;    
+          align-items: center;
+          padding: 30px;  
+}
+
+.logo{
+          font-size: 50px;
+          text-decoration: none;
+          color: #fff;
+}
+
+ul{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          list-style: none;
+          font-size: 25px;
+          cursor: pointer;
+          
+}
+
+ul li {
+          padding: 10px 20px;
+          transition: all .4s;
+}
+
+ul li:hover{
+          color: rgb(239, 48, 227);
+}
+
+
+/* Start Content */
+
+.content{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;   
+}
+.content .content_text{
+          width: 50%;
+          height: 300px;
+          padding: 40px 20px;
+}
+.content .content_text h2{
+          font-size: 38px;
+          text-transform: uppercase;
+}
+.content .content_text p{
+          letter-spacing: 3px;
+          font-size: 23px;
+          padding: 27px 0;
+          width: 388px;
+
+}
+.content .content_text button{
+          font-size: 25px;
+          font-weight: bold;
+          border: 2px solid red;
+          background-color: transparent;
+          color: #fff;
+          padding: 10px 20px;
+          transition: all .5s;
+          cursor: pointer;
+}
+
+.content .content_text button:hover{
+          background-color: rgb(238, 19, 19);
+}
+
+
+
+.content .content_img{
+          width: 350px; 
+}
+     
+.content .content_img img{
+          width: 100%;
+}
+
+
+.mood{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          
+}
+
+.mood li {
+          width: 100px;
+}
+
+.mood li img{
+          width: 100%;
+          transition: .5s;
+}
+
+.mood li img:hover{
+          transform: scale(1.2);
+}
+
+
